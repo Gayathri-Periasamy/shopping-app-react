@@ -1,51 +1,53 @@
-🍲 MMFoods – Homemade Snacks Ordering App
+🍲 ReactJs based Shopping App ( Homemade Snacks - Ordering App- for a fictional brand(MM Foods) )
 
-A modern, responsive React application for browsing and ordering authentic South Indian homemade snacks.
+A modern, responsive React + Vite + TailwindCSS application for browsing and ordering authentic South Indian homemade snacks.
 
 📌 Overview
 
-MMFoods is a fully functional React + Vite + TailwindCSS application that allows users to browse products, view detailed descriptions, manage cart items, and place pickup orders.
+MMFoods is a fully functional shopping experience built with React, featuring product browsing, cart management, order flow, and a mobile-friendly UI.
+
 This project demonstrates real-world frontend skills including:
 
 Component-based architecture
 
-State management using React Context
+React Context for global state
 
-Routing with Wouter
+Wouter for routing
 
-Responsive UI using TailwindCSS
+TailwindCSS for clean, modern styling
 
-Dynamic product pages, persistent mini-cart, and order confirmation flow
+Responsive UI/UX
 
+A realistic checkout + order confirmation flow
 
-This application was built as part of my frontend portfolio to showcase clean architecture, UI/UX thinking, and production-ready React development.
+Built as part of my frontend portfolio to showcase clean architecture, UI thinking, and production-ready React development.
 
 🚀 Features
 🛍️ Product Catalogue
 
-Displays a list of homemade snack items
+Browse homemade snack items
 
-Each item includes price, description, and image
+Prices, descriptions, images
 
-Product detail page with adjustable quantity
+Dedicated product detail page with adjustable quantity
 
 🛒 Shopping Cart
 
-Add, update, or remove items
+Add / update / remove items
 
-Real-time cart quantity visible in the navigation bar
+Real-time cart counter in the Navbar
 
-Mini-cart popup confirming additions
+Mini-cart popup confirming added items
 
 📦 Order Placement
 
-Simple checkout flow
+Smooth checkout flow
 
-User-friendly order form (name, phone, pickup time, etc.)
+User-friendly customer form (name, phone, pickup time)
 
-Smart pickup slot system:
+Smart pickup slot logic
 
-Shows “Today” slots only before 5 PM
+Shows “Today” slots before 5 PM
 
 Shows “Tomorrow” slots after 5 PM
 
@@ -53,17 +55,17 @@ Shows “Tomorrow” slots after 5 PM
 
 Fully optimized for mobile, tablet, and desktop
 
-Hamburger navigation for small screens
+Accessible navigation (hamburger menu for mobile)
 
-Touch-friendly inputs
+Touch-friendly controls
 
-🖼️ TailwindCSS Styling
+🎨 TailwindCSS UI
 
-Clean, modern, consistent UI
+Clean, minimal, modern look
 
-Utility-first styling for fast iteration
+Utility-first CSS for rapid changes
 
-Custom components using reusable classes
+Custom reusable components
 
 🧰 Tech Stack
 Category	Technology
@@ -72,73 +74,111 @@ State Management	React Context API
 Routing	Wouter
 UI Styling	TailwindCSS
 Build Tool	Vite
-Assets	Locally stored images + generated snack visuals
-📁 Project Structure (Simplified)
-my-homemade-food-app/
+Assets	Local images + generated visuals
+📸 Screenshots
+
+Below are key screens from the MMFoods React application demonstrating the user flow from browsing to checkout.
+
+🛍️ Products
+![Products](./screenshots/Products.png)
+
+📄 Product Details
+![Product Details](./screenshots/ProductDetails.png)
+
+📝 Order Form
+![Order Form](./screenshots/OrderForm.png)
+
+🛒 Cart
+![Cart](./screenshots/Cart.png)
+
+✅ Order Confirmation
+![Order Confirmation](./screenshots/OrderConfirmation.png)
+
+
+📁 Project Structure
+mm-foods/
 │
 ├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Header/
-│   │   ├── Footer/
-│   │   ├── ProductCard/
-│   │   ├── MiniCart/
-│   │   └── CartItem/
-│   ├── context/
-│   │   └── CartContext.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Products.jsx
-│   │   ├── ProductPage.jsx
-│   │   ├── Cart.jsx
-│   │   └── OrderConfirmation.jsx
-│   ├── data/
-│   │   └── products.js
-│   ├── App.jsx
-│   └── main.jsx
+│
+└── src/
+    ├── assets/
+    │
+    ├── components/
+    │   ├── Footer/
+    │   │   └── Footer.jsx
+    │   ├── Header/
+    │   ├── Layout/
+    │   ├── Minicart/
+    │   ├── OrderForm/
+    │   ├── PickupTimeSelector/
+    │   ├── ProductCard/
+    │   ├── ProductDetails/
+    │   └── ScrollToTop/
+    │
+    ├── context/
+    │   └── CartContext/
+    │       └── CartContext.jsx
+    │
+    ├── data/
+    │   └── products.js
+    │
+    ├── pages/
+    │   ├── About.jsx
+    │   ├── CartPage.jsx
+    │   ├── Checkout.jsx
+    │   ├── Contact.jsx
+    │   ├── Home.jsx
+    │   ├── NotFound.jsx
+    │   ├── OrderConfirmation.jsx
+    │   ├── ProductPage.jsx
+    │   ├── Products.jsx
+    │   └── ShippingEnquiry.jsx
+    │
+    ├── app.css
+    ├── app.jsx
+    ├── index.css
+    └── index.jsx
+│
 └── README.md
 
 🧪 Upcoming Enhancements
 
-These are planned for upcoming releases:
+Planned improvements:
 
 Persistent cart using localStorage
 
-Dedicated Storybook setup for component documentation
+Storybook for component documentation
 
-Per-product stock/availability indicators
+Stock/availability indicators per product
 
-Basic admin panel for managing product list
+Simple admin dashboard for managing product list
 
 💡 Why This Project Matters
 
-This project demonstrates my ability to build a production-style application with:
+It demonstrates my ability to build a realistic, production-style frontend app with:
 
-Clean React component design
+Clean React component patterns
 
-Realistic shopping cart flows
+Practical shopping-cart logic
 
-UX-driven decisions
+Thoughtful UX
 
-Attention to responsive design
+Mobile-first design
 
-Practical use of context/state
-
-Real-world routing logic
+Routing + state management
 
 Progressive enhancement mindset
 
 🔧 Getting Started
-1. Clone the repository
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+1️⃣ Clone the repository
+git clone https://github.com/Gayathri-Periasamy/shopping-app-react.git
+cd shopping-app-react
 
-2. Install dependencies
+2️⃣ Install dependencies
 npm install
 
-3. Run the development server
+3️⃣ Run the development server
 npm run dev
 
-4. Build for production
+4️⃣ Build for production
 npm run build
