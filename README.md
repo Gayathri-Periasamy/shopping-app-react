@@ -79,20 +79,40 @@ Assets	Local images + generated visuals
 
 Below are key screens from the MMFoods React application demonstrating the user flow from browsing to checkout.
 
+🏠 Homepage
+
+![Products](./screenshots/Home.png)
+
+A thoughtfully designed landing page that introduces the product catalogue and guides users smoothly into the shopping and checkout experience.
+
 🛍️ Products
 ![Products](./screenshots/Products.png)
 
+A structured product catalogue displaying available homemade snacks with pricing, visuals, and quick access to detailed views.
+
 📄 Product Details
 ![Product Details](./screenshots/ProductDetails.png)
+A dedicated product page presenting detailed descriptions, images, and quantity selection before adding items to the cart.
 
 📝 Order Form
 ![Order Form](./screenshots/OrderForm.png)
+A simple and user-friendly checkout form for collecting order and pickup details with smart time-slot handling.
 
 🛒 Cart
 ![Cart](./screenshots/Cart.png)
+An interactive shopping cart allowing users to review, update, or remove selected items before proceeding to checkout.
 
 ✅ Order Confirmation
 ![Order Confirmation](./screenshots/OrderConfirmation.png)
+A clear confirmation page summarizing the order details and confirming successful placement of the pickup order.
+
+📞 Contact (if included)
+
+A minimal contact page allowing users to reach out for inquiries related to orders, pickup, or availability.
+
+ℹ️ About (if included)
+
+An informational page describing the purpose of the application, its features, and the motivation behind the project.
 
 
 📁 Project Structure
