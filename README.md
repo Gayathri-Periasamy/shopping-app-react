@@ -106,12 +106,12 @@ An interactive shopping cart allowing users to review, update, or remove selecte
 ![Order Confirmation](./screenshots/OrderConfirmation.png)
 A clear confirmation page summarizing the order details and confirming successful placement of the pickup order.
 
-📞 Contact (if included)
-
+📞 Contact
+![Contact](./screenshots/Contact.png)
 A minimal contact page allowing users to reach out for inquiries related to orders, pickup, or availability.
 
-ℹ️ About (if included)
-
+ℹ️ About 
+![About](./screenshots/About.png)
 An informational page describing the purpose of the application, its features, and the motivation behind the project.
 
 
@@ -169,9 +169,6 @@ Persistent cart using localStorage
 
 Storybook for component documentation
 
-Stock/availability indicators per product
-
-Simple admin dashboard for managing product list
 
 💡 Why This Project Matters
 
