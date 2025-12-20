@@ -16,14 +16,6 @@ function ProductDetails({ product }) {
 		setTimeout(() => setShowMiniCart(false), 6000);
 	};
 
-	/*
-	const handleAddToCart = (product) => {
-		addToCart(product);
-		setShowMiniCart(true);
-		setTimeout(() => setShowMiniCart(false), 6000);
-	};
-	*/
-
 	return (
 		<div className="p-6 max-w-3xl mx-auto">
 			{/* Two-column layout */}

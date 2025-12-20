@@ -23,13 +23,13 @@ function OrderConfirmation() {
 					Thank you, <strong>{order?.name}</strong>!{" "}
 				</p>
 				<p className="mb-4">
-					Your order will be ready for{" "}
-					<strong>{order?.pickupTime}</strong>.
+					Your order has been placed successfully.<br /><br />
+					Pickup Time: {" "} {" "}
+					<strong>{order?.pickupDayLabel} {order?.pickupTime}</strong>
 				</p>
-
+				
 				<p className="mb-4">
-					For orders placed after 17:00 hours, pickup will be on the
-					<strong> next business day</strong>.
+					Your order will be freshly prepared and ready for pickup!
 				</p>
 
 				<p className="text-center text-gray-500 mb-4">

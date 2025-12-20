@@ -11,7 +11,7 @@ const products = [
 		id: 2,
 		name: "Boondhi Laddu - 250gm",
 		price: 4.59,
-		image: "/images/products/sweets/laddu.jpg",
+		image: "/images/products/sweets/Laddu.jpg",
 		description:
 			"Golden pearls of sweet boondhi bound in ghee and cardamom.A festive favorite that's rich, aromatic, and melts in your mout",
 	},
@@ -27,7 +27,7 @@ const products = [
 		id: 4,
 		name: "Suryakala - 250gm",
 		price: 4.99,
-		image: "/images/products/sweets/suryakala_2.jpg",
+		image: "/images/products/sweets/Suryakala.jpg",
 		description:
 			"A beautifully shaped, crisp outer shell with sweet khoya filling.Delicate, indulgent, and perfect for celebrations or gifting.",
 	},
@@ -68,7 +68,7 @@ const products = [
 		id: 9,
 		name: "Lemon Pickle - 150gm",
 		price: 2.59,
-		image: "/images/products/pickles/LemonPickle.png",
+		image: "/images/products/pickles/Lemonpickle.png",
 		description:
 			"Zesty and salty-sour lemon chunks cured in spices.A tangy sidekick to spice up simple meals.",
 	},
@@ -76,7 +76,7 @@ const products = [
 		id: 10,
 		name: "Puliodharai Premix - 150gm",
 		price: 3.99,
-		image: "/images/products/pickles/PuliodharaiPremix.png",
+		image: "/images/products/pickles/Puliodharaipremix.png",
 		description:
 			"A tangy, spicy tamarind-based rice mix with roasted spices.Just mix with hot rice for an instant, temple-style feast.",
 	},
@@ -84,7 +84,7 @@ const products = [
 		id: 11,
 		name: "Mango Pickle - 150gm",
 		price: 4.59,
-		image: "/images/products/pickles/MangoPickle.png",
+		image: "/images/products/pickles/Mangopickle.png",
 		description:
 			"Tender mango pieces soaked in a spicy, tangy masala.Bursts with bold flavor — a must-have with curd rice or parath",
 	},
@@ -92,7 +92,7 @@ const products = [
 		id: 12,
 		name: "Tomato Thokku - 150gm",
 		price: 3.79,
-		image: "/images/products/pickles/ThakkaliThokku.png",
+		image: "/images/products/pickles/Thakkalithokku.png",
 		description:
 			"Slow-cooked tomato relish with mustard and red chilies.Delicious with dosa, idli, or hot rice with ghee.",
 	},

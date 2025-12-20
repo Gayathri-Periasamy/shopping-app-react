@@ -16,7 +16,7 @@ function Header() {
 				{/* Logo */}
 				<Link href="/" className="block">
 					<img
-						src="/images/products/MMFoods_logo2.png"
+						src="/images/products/MMFoods_Logo.png"
 						alt="MM Foods Logo"
 						className="h-8 sm:h-10 md:h-12 lg:h-30 w-auto object-contain"
 						aria-label="Homepage"
