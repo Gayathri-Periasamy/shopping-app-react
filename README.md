@@ -106,33 +106,35 @@ Confirms successful order placement and pickup timing.
 Supporting pages describing the app and providing contact information.
 
 
+## 📁 Project Structure
+
 mm-foods/
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Header/
-│   │   ├── Footer/
-│   │   ├── Layout/
-│   │   ├── MiniCart/
-│   │   ├── OrderForm/
-│   │   ├── PickupTimeSelector/
-│   │   ├── ProductCard/
-│   │   └── ProductDetails/
-│   ├── context/
-│   │   └── CartContext.jsx
-│   ├── data/
-│   │   └── products.js
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Products.jsx
-│   │   ├── ProductPage.jsx
-│   │   ├── CartPage.jsx
-│   │   ├── Checkout.jsx
-│   │   ├── OrderConfirmation.jsx
-│   │   ├── About.jsx
-│   │   └── Contact.jsx
-│   ├── App.jsx
-│   └── index.jsx
+│ ├── assets/
+│ ├── components/
+│ │ ├── Header/
+│ │ ├── Footer/
+│ │ ├── Layout/
+│ │ ├── MiniCart/
+│ │ ├── OrderForm/
+│ │ ├── PickupTimeSelector/
+│ │ ├── ProductCard/
+│ │ └── ProductDetails/
+│ ├── context/
+│ │ └── CartContext.jsx
+│ ├── data/
+│ │ └── products.js
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Products.jsx
+│ │ ├── ProductPage.jsx
+│ │ ├── CartPage.jsx
+│ │ ├── Checkout.jsx
+│ │ ├── OrderConfirmation.jsx
+│ │ ├── About.jsx
+│ │ └── Contact.jsx
+│ ├── App.jsx
+│ └── index.jsx
 └── README.md
 
 🧪 Planned Enhancements
